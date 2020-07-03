@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/groupshop/list",
+    "pages/address/list",
+    "pages/address/create",
+    "pages/product/search",
+    "pages/product/detail",
+    "pages/product/favorite",
+    "pages/product/list",
+    "pages/product/appraise",
+    "pages/user/profile",
+    "pages/community/community",
+    "pages/category/category",
+    "pages/member/member",
+    "pages/public/login",
+    "pages/public/register",
+    "pages/user/user",
+    "pages/user/about",
+    "pages/order/list",
+    "pages/order/create",
+    "pages/order/detail",
+    "pages/order/appraise",
+    "pages/order/trace",
+    "pages/pay/pay",
+    "pages/pay/success",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/user/onlineservice",
+    "pages/user/cashout/cashout",
+    "pages/member/video/video",
+    "pages/member/goldVideo",
+    "pages/public/test",
+    "pages/user/invitefriend",
+    "pages/set/set",
+    "pages/user/feedback",
+    "pages/product/share",
+    "pages/member/notmemeber",
+    "pages/member/videoCategory",
+    "pages/community/introduce",
+    "pages/community/article",
+    "pages/member/goldteacher",
+    "pages/member/course",
+    "pages/member/shortvideo",
+    "pages/user/realserver",
+    "pages/user/cashout/withdraw",
+    "pages/order/findOrder",
+    "pages/user/yinsitiaokuan",
+    "pages/member/goldmember/goldmember",
+    "pages/member/platinumMember/platinumMember",
+    "pages/member/9800member/9800member",
+    "pages/index/newGood",
+    "pages/index/shareGit",
+    "pages/index/message",
+    "pages/index/goodNew",
+    "pages/index/mes",
+    "pages/index/discount",
+    "pages/user/myteam",
+    "pages/order/friendsOrder",
+    "pages/order/shareOrder",
+    "pages/public/videoTest"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/首页-未选-icon@3x.png",
+        "selectedIconPath": "static/首页-选中-icon@3x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/商城-未选-icon@3x.png",
+        "selectedIconPath": "static/商城-选中-icon@3x.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/member/notmemeber",
+        "iconPath": "static/tab/VIP@3x.png",
+        "selectedIconPath": "static/tab/VIP@3x.png",
+        "fontSize": "40"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "static/分类-未选-icon@3x.png",
+        "selectedIconPath": "static/分类-选中-icon@3x.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/我的-未选-icon@3x.png",
+        "selectedIconPath": "static/我的-选中-icon@3x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

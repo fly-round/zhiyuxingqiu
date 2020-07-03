@@ -1,0 +1,1 @@
+文档已移至[uni-account](https://uniapp.dcloud.io/uniCloud/uni-account)

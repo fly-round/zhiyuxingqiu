@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/u-parse/components/wxParseTemplate3"],{"33aa":function(e,n,t){"use strict";var a,o=function(){var e=this,n=e.$createElement;e._self._c},r=[];t.d(n,"b",(function(){return o})),t.d(n,"c",(function(){return r})),t.d(n,"a",(function(){return a}))},"63a1":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a=function(){t.e("components/u-parse/components/wxParseTemplate4").then(function(){return resolve(t("dd7e"))}.bind(null,t)).catch(t.oe)},o=function(){t.e("components/u-parse/components/wxParseImg").then(function(){return resolve(t("3840"))}.bind(null,t)).catch(t.oe)},r=function(){t.e("components/u-parse/components/wxParseVideo").then(function(){return resolve(t("2191"))}.bind(null,t)).catch(t.oe)},u=function(){t.e("components/u-parse/components/wxParseAudio").then(function(){return resolve(t("a9fa"))}.bind(null,t)).catch(t.oe)},c={name:"wxParseTemplate3",props:{node:{}},components:{wxParseTemplate:a,wxParseImg:o,wxParseVideo:r,wxParseAudio:u},methods:{wxParseATap:function(e){var n=e.currentTarget.dataset.href;if(n){var t=this.$parent;while(!t.preview||"function"!==typeof t.preview)t=t.$parent;t.navigate(n,e)}}}};n.default=c},a658:function(e,n,t){"use strict";t.r(n);var a=t("33aa"),o=t("a7c5");for(var r in o)"default"!==r&&function(e){t.d(n,e,(function(){return o[e]}))}(r);var u,c=t("f0c5"),s=Object(c["a"])(o["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],u);n["default"]=s.exports},a7c5:function(e,n,t){"use strict";t.r(n);var a=t("63a1"),o=t.n(a);for(var r in a)"default"!==r&&function(e){t.d(n,e,(function(){return a[e]}))}(r);n["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/u-parse/components/wxParseTemplate3-create-component',
+    {
+        'components/u-parse/components/wxParseTemplate3-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a658"))
+        })
+    },
+    [['components/u-parse/components/wxParseTemplate3-create-component']]
+]);
